@@ -6,7 +6,7 @@ This repository contains binary releases of the Fabric SDK for iOS and Android.
 
 # Release Notes
 
-Changes since v0.3.2
+Changes since v0.3.3
 
 
 ## 📦 Release Artifacts
@@ -32,8 +32,8 @@ Add the binary target to your app's `Package.swift`:
 ```swift
 .binaryTarget(
     name: "FabricSDK",
-    url: "https://github.com/fabric-pbc/fabric-sdks-releases/releases/download/v0.3.2/FabricSDK.xcframework.zip",
-    checksum: "fe2c5c8a8e22261975912ecfa3b0cf2452bb576df3a51d4173dd43c2de689688"
+    url: "https://github.com/fabric-pbc/fabric-sdks-releases/releases/download/v0.3.3/FabricSDK.xcframework.zip",
+    checksum: "dabeb13de049b5a4f4350eef45afc56a624ff4caceb5a016f641af984a836192"
 )
 ```
 
