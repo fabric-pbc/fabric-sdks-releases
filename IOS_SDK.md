@@ -11,7 +11,7 @@ The FabricSDK provides a simple and efficient way to integrate Fabric WebView co
 Simple utility for SDK information.
 
 **Properties:**
-- `version` - Returns the SDK version string, such as `"0.4.0"`
+- `version` - Returns the SDK version string, such as `"0.4.1"`
 
 ```swift
 import FabricSDK
@@ -80,7 +80,7 @@ Add the SDK to your app via Xcode:
 Or via Package.swift:
 ```swift
 dependencies: [
-  .package(url: "https://github.com/fabric-pbc/fabric-sdks-releases.git", exact: "0.4.0")
+  .package(url: "https://github.com/fabric-pbc/fabric-sdks-releases.git", exact: "0.4.1")
 ]
 ```
 

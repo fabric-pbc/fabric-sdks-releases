@@ -18,7 +18,7 @@ import space.fabric.sdk.FabricSDKInfo
 
 ```kotlin
 // Get the SDK version
-val version = FabricSDKInfo.version // Returns the SDK version, such as "0.4.0"
+val version = FabricSDKInfo.version // Returns the SDK version, such as "0.4.1"
 ```
 
 ### FabricWebViewConfig

@@ -75,9 +75,9 @@ iOS consumers can integrate the XCFramework through Swift Package Manager using 
 
 # Release Notes
 
-Current version: v0.4.0
+Current version: v0.4.1
 
-Changes since v0.4.0
+Changes since v0.4.1
 
 
 ## 📦 Release Artifacts
@@ -103,8 +103,8 @@ Add the binary target to your app's `Package.swift`:
 ```swift
 .binaryTarget(
     name: "FabricSDK",
-    url: "https://github.com/fabric-pbc/fabric-sdks-releases/releases/download/v0.4.0/FabricSDK.xcframework.zip",
-    checksum: "82e58dbe427f1fd99be7b2b0cb82f6148c0c99eee30b5f0d4b5a6f99838ba3cd"
+    url: "https://github.com/fabric-pbc/fabric-sdks-releases/releases/download/v0.4.1/FabricSDK.xcframework.zip",
+    checksum: "eadea4f4cb827e2b28b936e9a35280e68c919df77188f74ecd0e70494f2c0fd6"
 )
 ```
 
