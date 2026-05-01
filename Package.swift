@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "FabricSDK",
-            url: "https://github.com/fabric-pbc/fabric-sdks-releases/releases/download/v0.4.1/FabricSDK.xcframework.zip",
-            checksum: "eadea4f4cb827e2b28b936e9a35280e68c919df77188f74ecd0e70494f2c0fd6"
+            url: "https://github.com/fabric-pbc/fabric-sdks-releases/releases/download/v0.4.2/FabricSDK.xcframework.zip",
+            checksum: "eba0ebe87ec43beaca1ea6f0ccd8640b4a2f1b94412b68918d7add41b3d300f9"
         )
     ]
 )
