@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "FabricSDK",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v15)
     ],
     products: [
         .library(
@@ -15,10 +15,9 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "FabricSDK",
-            url: "https://github.com/fabric-pbc/fabric-sdks-releases/releases/download/v0.3.4/FabricSDK.xcframework.zip",
-            checksum: "6b79bb6dc8f6effb600a2dddd39c96835f5774020d368563c63845f756710200"
+            url: "https://github.com/fabric-pbc/fabric-sdks-releases/releases/download/v0.4.0/FabricSDK.xcframework.zip",
+            checksum: "82e58dbe427f1fd99be7b2b0cb82f6148c0c99eee30b5f0d4b5a6f99838ba3cd"
         )
     ]
 )
-
 
