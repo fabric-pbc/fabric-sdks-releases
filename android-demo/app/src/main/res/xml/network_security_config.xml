@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Base config trusts both system and user CAs for the demo app (debug/dev only).
+         This lets the app and WebView accept certificates installed via Settings on the emulator. -->
+    <base-config>
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </base-config>
+
+    <!-- Optionally allow cleartext for the emulator host mapping (conservative: left false) -->
+    <!--
+    <domain-config cleartextTrafficPermitted="true">
+        <domain>10.0.2.2</domain>
+    </domain-config>
+    -->
+</network-security-config>

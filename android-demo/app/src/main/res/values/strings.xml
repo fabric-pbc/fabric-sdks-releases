@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fabric Android SDK Demo</string>
+    <string name="default_space_url">https://sparkfabric.co/space/demo</string>
+</resources>

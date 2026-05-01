@@ -6,10 +6,12 @@ This repository contains binary releases of the Fabric SDK for iOS and Android.
 
 - [Android SDK Guide](ANDROID_SDK.md)
 - [iOS SDK Guide](IOS_SDK.md)
+- [Android demo source](android-demo/)
+- [iOS demo source](ios-demo/)
 
-## Latest Release
+## Release Contents
 
-# Fabric Mobile SDK
+### Fabric Mobile SDK
 
 The Fabric SDK packages the native mobile integration layer for Fabric spaces. It lets an enterprise application embed a Fabric web experience inside a native Android or iOS app while keeping the host application in control of session identity, user consent, permissions, and navigation policy.
 
@@ -19,7 +21,7 @@ The release artifacts are intended for teams that consume both platform SDKs:
 - iOS: `FabricSDK.xcframework.zip`, plus a generated `Package.swift` for Swift Package Manager binary integration.
 - iOS debug symbols: `FabricSDK-dSYMs.zip`, for crash symbolication in production monitoring systems.
 
-## Why Teams Use It
+#### Why Teams Use It
 
 The Fabric web application needs a bridge when it must exchange structured messages with the native host application, especially:
 
@@ -35,13 +37,13 @@ FabricSDK gives native teams a consistent wrapper around that bridge contract an
 - Routes selected web domains inside the WebView while opening other destinations in the system browser.
 - Lets the host app handle custom URL schemes before the SDK falls back to native app intents or system behavior.
 
-## Session Context
+#### Session Context
 
 The host application provides the user's ID token when constructing the WebView configuration. The SDK stores that value in memory as part of the WebView configuration and relays it to the Fabric web application through the bridge session domain after a successful core handshake.
 
 The host application may also provide user language preferences. The SDK does not infer enterprise language policy on its own; applications should pass the language preferences they want Fabric web content to receive.
 
-## Expected Application Side Effects
+#### Expected Application Side Effects
 
 Using FabricSDK means the host application should expect these runtime behaviors:
 
@@ -52,7 +54,7 @@ Using FabricSDK means the host application should expect these runtime behaviors
 - Navigation to domains outside the configured WebView policy may open in the system browser.
 - Custom schemes such as `tel:`, `mailto:`, or app-specific schemes may be offered to the host app callback before system handling.
 
-## Host Application Responsibilities
+#### Host Application Responsibilities
 
 Before shipping an app with FabricSDK, native teams should review:
 
@@ -65,7 +67,7 @@ Before shipping an app with FabricSDK, native teams should review:
 - Which camera, location, motion, or other privacy-sensitive capabilities the app is willing to expose.
 - Which platform privacy strings, permissions, and enterprise compliance reviews are required for any device capabilities the app wants to support.
 
-## Platform Notes
+#### Platform Notes
 
 Android consumers can integrate the AAR directly or consume the published package when available. The SDK is designed for modern Android applications using the AndroidX WebKit and Jetpack Compose ecosystem.
 
@@ -75,19 +77,45 @@ iOS consumers can integrate the XCFramework through Swift Package Manager using 
 
 # Release Notes
 
-Current version: v0.4.2
+Current version: v0.4.3
 
-Changes since v0.4.1
+Changes since v0.3.4
 
-## Release
-### Chore
-- bump to v0.4.2
+## v0.4.3
+- `build(ci)` improve generated release readme structure
+- `build(ci)` publish standalone demo source artifacts
 
+## v0.4.2
+- `build(ci)` compare release notes against previous tag
 
-## Ci
-### Build
-- compare release notes against previous tag
+## v0.4.1
+- `build(ci)` treat unrecognized commit types as patch releases
+- `build(ci)` pass release repo token explicitly
 
+## v0.4.0
+- `docs(ci)` :bookmark: publish consumer sdk guides in releases
+- `chore(general)` remove redundant swift editor settings
+- `refactor(android)` collect demo session values at runtime
+- `refactor(ios)` collect demo session values (space url, JWT) at runtime.
+- `build(ios)` lower sdk deployment target to ios 15
+- `build(ios)` :construction_worker: disable catalyst for sdk framework target
+- `docs(ios)` streamline demo setup for simulators and separate device instructions
+- `docs(android)` improve demo setup and launch instructions
+- `refactor(android)` raise library min sdk to api 23
+- `refactor(android)` satisfy location permission lint
+- `refactor(android)` avoid global coroutine for geo timeout.
+- `chore(general)` ignore generated local artifacts
+- `test(ios)` share simulator test scheme
+- `refactor(ios)` report package version in bridge hello
+- `refactor(ios)` remove verbose webview console prints
+- `docs(android)` add requirement verification instructions
+- `docs(ios)` add requirement verification instructions
+- `docs(android)` document development test phases
+- `docs(ios)` clarify development test phases
+- `feat(ios)` add session context bridge support
+- `refactor(android)` :truck: move android instrumentation test to more conventional location.
+- `feat(android)` push session context after bridge handshake.
+- `docs(general)` :memo: add documentation for enterprise customers using the native SDK.
 
 
 ## 📦 Release Artifacts
@@ -102,6 +130,10 @@ This release includes the following files:
 ### Android
 - **`FabricSDK-release.aar`** - The Android SDK library (also available via GitHub Packages)
 
+### Demo Source
+- **`android-demo-source.zip`** - Standalone Android demo project that embeds the released AAR
+- **`ios-demo-source.zip`** - Standalone iOS demo project that embeds the released XCFramework
+
 ---
 
 ## 🍎 iOS Integration
@@ -113,8 +145,8 @@ Add the binary target to your app's `Package.swift`:
 ```swift
 .binaryTarget(
     name: "FabricSDK",
-    url: "https://github.com/fabric-pbc/fabric-sdks-releases/releases/download/v0.4.2/FabricSDK.xcframework.zip",
-    checksum: "eba0ebe87ec43beaca1ea6f0ccd8640b4a2f1b94412b68918d7add41b3d300f9"
+    url: "https://github.com/fabric-pbc/fabric-sdks-releases/releases/download/v0.4.3/FabricSDK.xcframework.zip",
+    checksum: "c0b958b0737bc8a460f10fd02f3beb039919cc97e23b5352060311f2182fd848"
 )
 ```
 

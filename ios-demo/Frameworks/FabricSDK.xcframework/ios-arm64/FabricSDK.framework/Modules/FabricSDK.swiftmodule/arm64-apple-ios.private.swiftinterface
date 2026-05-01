@@ -1,0 +1,133 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature MemberImportVisibility -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FabricSDK
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+import AVFoundation
+import CoreLocation
+import CoreMotion
+import Foundation
+import Swift
+import SwiftUI
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os.log
+import os
+public func makeSafariBaselineUserAgent(osMajor: Swift.Int, osMinor: Swift.Int, osPatch: Swift.Int, deviceModelIdentifier: Swift.String, webKitToken: Swift.String = "AppleWebKit/605.1.15", buildMobileToken: Swift.String = "Mobile/15E148") -> Swift.String
+public func makeSafariLikeUserAgent(osMajor: Swift.Int, osMinor: Swift.Int, osPatch: Swift.Int, deviceModelIdentifier: Swift.String, safariToken: Swift.String = "Safari/605.1.15") -> Swift.String
+public func augmentUserAgentWithVersionAndSafari(_ defaultUA: Swift.String, osMajor: Swift.Int, osMinor: Swift.Int, safariToken: Swift.String = "Safari/605.1.15") -> Swift.String
+public func composeEvaluatedAppendedUserAgent(baseline: Swift.String, osMajor: Swift.Int, osMinor: Swift.Int, safariToken: Swift.String = "Safari/605.1.15") -> Swift.String
+public typealias CustomSchemeHandler = (Foundation.URL, Swift.String) -> Swift.Bool
+public struct FabricWebViewConfig {
+  public let url: Foundation.URL
+  public let userIdToken: Swift.String
+  public let userLanguagePreferences: Swift.String?
+  public let webViewDomains: Swift.Set<Swift.String>
+  public let onCustomScheme: FabricSDK.CustomSchemeHandler?
+  public init(url: Foundation.URL, userIdToken: Swift.String = "", userLanguagePreferences: Swift.String? = nil, webViewDomains: Swift.Set<Swift.String> = [], onCustomScheme: FabricSDK.CustomSchemeHandler? = nil)
+}
+@_Concurrency.MainActor @preconcurrency public struct FabricWebView : SwiftUI.UIViewRepresentable {
+  @_Concurrency.MainActor @preconcurrency public let config: FabricSDK.FabricWebViewConfig
+  @_Concurrency.MainActor @preconcurrency public init(config: FabricSDK.FabricWebViewConfig)
+  @_Concurrency.MainActor @preconcurrency public func makeCoordinator() -> FabricSDK.FabricWebView.Coordinator
+  @_Concurrency.MainActor @preconcurrency public func makeUIView(context: FabricSDK.FabricWebView.Context) -> WebKit.WKWebView
+  @_Concurrency.MainActor @preconcurrency public func updateUIView(_ uiView: WebKit.WKWebView, context: FabricSDK.FabricWebView.Context)
+  @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class Coordinator : ObjectiveC.NSObject, WebKit.WKScriptMessageHandler, WebKit.WKNavigationDelegate, WebKit.WKUIDelegate, CoreLocation.CLLocationManagerDelegate {
+    @_Concurrency.MainActor @preconcurrency @objc final public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+    @_Concurrency.MainActor @preconcurrency @objc final public func locationManager(_ manager: CoreLocation.CLLocationManager, didChangeAuthorization status: CoreLocation.CLAuthorizationStatus)
+    @_Concurrency.MainActor @preconcurrency @objc final public func locationManager(_ manager: CoreLocation.CLLocationManager, didFailWithError error: any Swift.Error)
+    @_Concurrency.MainActor @preconcurrency @objc final public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [CoreLocation.CLLocation])
+    @_Concurrency.MainActor @preconcurrency @objc final public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
+    @_Concurrency.MainActor @preconcurrency @objc final public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+    @available(iOS 15.0, *)
+    @_Concurrency.MainActor @preconcurrency @objc final public func webView(_ webView: WebKit.WKWebView, requestMediaCapturePermissionFor origin: WebKit.WKSecurityOrigin, initiatedByFrame frame: WebKit.WKFrameInfo, type: WebKit.WKMediaCaptureType, decisionHandler: @escaping (WebKit.WKPermissionDecision) -> Swift.Void)
+    @objc deinit
+  }
+  public typealias Body = Swift.Never
+  public typealias UIViewType = WebKit.WKWebView
+}
+public struct FabricSDKInfo {
+  public static let version: Swift.String
+  public init()
+}
+public enum AnyCodable : Swift.Codable {
+  case string(Swift.String)
+  case int(Swift.Int)
+  case double(Swift.Double)
+  case bool(Swift.Bool)
+  case array([FabricSDK.AnyCodable])
+  case object([Swift.String : FabricSDK.AnyCodable])
+  case null
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public enum FabricDecodeError : Swift.Error {
+  case invalidBody
+  case jsonSerializationFailed
+  case decodeFailed(any Swift.Error)
+}
+public func decodeMessage<T>(_ type: T.Type, from body: Any) throws -> T where T : Swift.Decodable
+public enum FabricMessageType : Swift.String, Swift.Codable {
+  case geolocation
+  case geolocationWatch
+  case geolocationClear
+  case permissionQuery
+  case deviceOrientationRequest
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct FabricPermEnvelope : Swift.Codable {
+  public let type: FabricSDK.FabricMessageType
+  public let id: Swift.String?
+  public let name: Swift.String?
+  public let options: FabricSDK.AnyCodable?
+  public init(type: FabricSDK.FabricMessageType, id: Swift.String?, name: Swift.String?, options: FabricSDK.AnyCodable?)
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct ConsolePayload : Swift.Codable {
+  public let level: Swift.String?
+  public let message: Swift.String
+  public let source: Swift.String?
+  public let line: Swift.Int?
+  public let column: Swift.Int?
+  public let stack: Swift.String?
+  public init(level: Swift.String?, message: Swift.String, source: Swift.String?, line: Swift.Int?, column: Swift.Int?, stack: Swift.String?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ConsoleEnvelope : Swift.Codable {
+  public let kind: Swift.String
+  public let payload: FabricSDK.ConsolePayload
+  public init(kind: Swift.String, payload: FabricSDK.ConsolePayload)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum FabricPermMessage : Swift.Decodable {
+  public struct IdOnly : Swift.Decodable {
+    public let id: Swift.String?
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct PermissionQueryPayload : Swift.Decodable {
+    public let id: Swift.String?
+    public let name: Swift.String?
+    public let options: FabricSDK.AnyCodable?
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  case geolocation(FabricSDK.FabricPermMessage.IdOnly)
+  case geolocationWatch(FabricSDK.FabricPermMessage.IdOnly)
+  case geolocationClear(FabricSDK.FabricPermMessage.IdOnly)
+  case permissionQuery(FabricSDK.FabricPermMessage.PermissionQueryPayload)
+  case deviceOrientationRequest(FabricSDK.FabricPermMessage.IdOnly)
+  case unknown
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension FabricSDK.FabricWebView : Swift.Sendable {}
+extension FabricSDK.FabricWebView.Coordinator : Swift.Sendable {}
+extension FabricSDK.FabricMessageType : Swift.Equatable {}
+extension FabricSDK.FabricMessageType : Swift.Hashable {}
+extension FabricSDK.FabricMessageType : Swift.RawRepresentable {}

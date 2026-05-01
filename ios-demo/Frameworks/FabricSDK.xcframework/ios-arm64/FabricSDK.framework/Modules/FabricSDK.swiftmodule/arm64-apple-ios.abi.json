@@ -1,0 +1,4558 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "FabricSDK",
+    "printedName": "FabricSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FabricSDK"
+      },
+      {
+        "kind": "Function",
+        "name": "makeSafariBaselineUserAgent",
+        "printedName": "makeSafariBaselineUserAgent(osMajor:osMinor:osPatch:deviceModelIdentifier:webKitToken:buildMobileToken:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "hasDefaultArg": true,
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "hasDefaultArg": true,
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9FabricSDK27makeSafariBaselineUserAgent7osMajor0H5Minor0H5Patch21deviceModelIdentifier11webKitToken011buildMobileQ0SSSi_S2iS3StF",
+        "mangledName": "$s9FabricSDK27makeSafariBaselineUserAgent7osMajor0H5Minor0H5Patch21deviceModelIdentifier11webKitToken011buildMobileQ0SSSi_S2iS3StF",
+        "moduleName": "FabricSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "makeSafariLikeUserAgent",
+        "printedName": "makeSafariLikeUserAgent(osMajor:osMinor:osPatch:deviceModelIdentifier:safariToken:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "hasDefaultArg": true,
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9FabricSDK23makeSafariLikeUserAgent7osMajor0H5Minor0H5Patch21deviceModelIdentifier11safariTokenSSSi_S2iS2StF",
+        "mangledName": "$s9FabricSDK23makeSafariLikeUserAgent7osMajor0H5Minor0H5Patch21deviceModelIdentifier11safariTokenSSSi_S2iS2StF",
+        "moduleName": "FabricSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "augmentUserAgentWithVersionAndSafari",
+        "printedName": "augmentUserAgentWithVersionAndSafari(_:osMajor:osMinor:safariToken:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "hasDefaultArg": true,
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9FabricSDK36augmentUserAgentWithVersionAndSafari_7osMajor0J5Minor11safariTokenS2S_S2iSStF",
+        "mangledName": "$s9FabricSDK36augmentUserAgentWithVersionAndSafari_7osMajor0J5Minor11safariTokenS2S_S2iSStF",
+        "moduleName": "FabricSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "composeEvaluatedAppendedUserAgent",
+        "printedName": "composeEvaluatedAppendedUserAgent(baseline:osMajor:osMinor:safariToken:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "hasDefaultArg": true,
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9FabricSDK33composeEvaluatedAppendedUserAgent8baseline7osMajor0I5Minor11safariTokenS2S_S2iSStF",
+        "mangledName": "$s9FabricSDK33composeEvaluatedAppendedUserAgent8baseline7osMajor0I5Minor11safariTokenS2S_S2iSStF",
+        "moduleName": "FabricSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FabricWebViewConfig",
+        "printedName": "FabricWebViewConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9FabricSDK0A13WebViewConfigV3url10Foundation3URLVvp",
+            "mangledName": "$s9FabricSDK0A13WebViewConfigV3url10Foundation3URLVvp",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9FabricSDK0A13WebViewConfigV3url10Foundation3URLVvg",
+                "mangledName": "$s9FabricSDK0A13WebViewConfigV3url10Foundation3URLVvg",
+                "moduleName": "FabricSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userIdToken",
+            "printedName": "userIdToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9FabricSDK0A13WebViewConfigV11userIdTokenSSvp",
+            "mangledName": "$s9FabricSDK0A13WebViewConfigV11userIdTokenSSvp",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9FabricSDK0A13WebViewConfigV11userIdTokenSSvg",
+                "mangledName": "$s9FabricSDK0A13WebViewConfigV11userIdTokenSSvg",
+                "moduleName": "FabricSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userLanguagePreferences",
+            "printedName": "userLanguagePreferences",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9FabricSDK0A13WebViewConfigV23userLanguagePreferencesSSSgvp",
+            "mangledName": "$s9FabricSDK0A13WebViewConfigV23userLanguagePreferencesSSSgvp",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9FabricSDK0A13WebViewConfigV23userLanguagePreferencesSSSgvg",
+                "mangledName": "$s9FabricSDK0A13WebViewConfigV23userLanguagePreferencesSSSgvg",
+                "moduleName": "FabricSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "webViewDomains",
+            "printedName": "webViewDomains",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<Swift.String>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9FabricSDK0A13WebViewConfigV03webD7DomainsShySSGvp",
+            "mangledName": "$s9FabricSDK0A13WebViewConfigV03webD7DomainsShySSGvp",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9FabricSDK0A13WebViewConfigV03webD7DomainsShySSGvg",
+                "mangledName": "$s9FabricSDK0A13WebViewConfigV03webD7DomainsShySSGvg",
+                "moduleName": "FabricSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onCustomScheme",
+            "printedName": "onCustomScheme",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.URL, Swift.String) -> Swift.Bool)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URL, Swift.String) -> Swift.Bool",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Foundation.URL, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9FabricSDK0A13WebViewConfigV14onCustomSchemeSb10Foundation3URLV_SStcSgvp",
+            "mangledName": "$s9FabricSDK0A13WebViewConfigV14onCustomSchemeSb10Foundation3URLV_SStcSgvp",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.URL, Swift.String) -> Swift.Bool)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URL, Swift.String) -> Swift.Bool",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Foundation.URL, Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "URL",
+                                "printedName": "Foundation.URL",
+                                "usr": "s:10Foundation3URLV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9FabricSDK0A13WebViewConfigV14onCustomSchemeSb10Foundation3URLV_SStcSgvg",
+                "mangledName": "$s9FabricSDK0A13WebViewConfigV14onCustomSchemeSb10Foundation3URLV_SStcSgvg",
+                "moduleName": "FabricSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(url:userIdToken:userLanguagePreferences:webViewDomains:onCustomScheme:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FabricWebViewConfig",
+                "printedName": "FabricSDK.FabricWebViewConfig",
+                "usr": "s:9FabricSDK0A13WebViewConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<Swift.String>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sh"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.URL, Swift.String) -> Swift.Bool)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URL, Swift.String) -> Swift.Bool",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Foundation.URL, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9FabricSDK0A13WebViewConfigV3url11userIdToken0G19LanguagePreferences03webD7Domains14onCustomSchemeAC10Foundation3URLV_S2SSgShySSGSbAK_SStcSgtcfc",
+            "mangledName": "$s9FabricSDK0A13WebViewConfigV3url11userIdToken0G19LanguagePreferences03webD7Domains14onCustomSchemeAC10Foundation3URLV_S2SSgShySSGSbAK_SStcSgtcfc",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9FabricSDK0A13WebViewConfigV",
+        "mangledName": "$s9FabricSDK0A13WebViewConfigV",
+        "moduleName": "FabricSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FabricSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "FabricSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "FabricSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "FabricSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMotion",
+        "printedName": "CoreMotion",
+        "declKind": "Import",
+        "moduleName": "FabricSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "FabricSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FabricWebView",
+        "printedName": "FabricWebView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "config",
+            "printedName": "config",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FabricWebViewConfig",
+                "printedName": "FabricSDK.FabricWebViewConfig",
+                "usr": "s:9FabricSDK0A13WebViewConfigV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9FabricSDK0A7WebViewV6configAA0acD6ConfigVvp",
+            "mangledName": "$s9FabricSDK0A7WebViewV6configAA0acD6ConfigVvp",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FabricWebViewConfig",
+                    "printedName": "FabricSDK.FabricWebViewConfig",
+                    "usr": "s:9FabricSDK0A13WebViewConfigV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9FabricSDK0A7WebViewV6configAA0acD6ConfigVvg",
+                "mangledName": "$s9FabricSDK0A7WebViewV6configAA0acD6ConfigVvg",
+                "moduleName": "FabricSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FabricWebView",
+                "printedName": "FabricSDK.FabricWebView",
+                "usr": "s:9FabricSDK0A7WebViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FabricWebViewConfig",
+                "printedName": "FabricSDK.FabricWebViewConfig",
+                "usr": "s:9FabricSDK0A13WebViewConfigV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9FabricSDK0A7WebViewV6configAcA0acD6ConfigV_tcfc",
+            "mangledName": "$s9FabricSDK0A7WebViewV6configAcA0acD6ConfigV_tcfc",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeCoordinator",
+            "printedName": "makeCoordinator()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Coordinator",
+                "printedName": "FabricSDK.FabricWebView.Coordinator",
+                "usr": "s:9FabricSDK0A7WebViewV11CoordinatorC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9FabricSDK0A7WebViewV15makeCoordinatorAC0F0CyF",
+            "mangledName": "$s9FabricSDK0A7WebViewV15makeCoordinatorAC0F0CyF",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeUIView",
+            "printedName": "makeUIView(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<FabricSDK.FabricWebView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FabricWebView",
+                    "printedName": "FabricSDK.FabricWebView",
+                    "usr": "s:9FabricSDK0A7WebViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9FabricSDK0A7WebViewV10makeUIView7contextSo05WKWebD0C7SwiftUI0F20RepresentableContextVyACG_tF",
+            "mangledName": "$s9FabricSDK0A7WebViewV10makeUIView7contextSo05WKWebD0C7SwiftUI0F20RepresentableContextVyACG_tF",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUIView",
+            "printedName": "updateUIView(_:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<FabricSDK.FabricWebView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FabricWebView",
+                    "printedName": "FabricSDK.FabricWebView",
+                    "usr": "s:9FabricSDK0A7WebViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9FabricSDK0A7WebViewV12updateUIView_7contextySo05WKWebD0C_7SwiftUI0F20RepresentableContextVyACGtF",
+            "mangledName": "$s9FabricSDK0A7WebViewV12updateUIView_7contextySo05WKWebD0C_7SwiftUI0F20RepresentableContextVyACGtF",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Coordinator",
+            "printedName": "Coordinator",
+            "children": [
+              {
+                "kind": "Function",
+                "name": "userContentController",
+                "printedName": "userContentController(_:didReceive:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKUserContentController",
+                    "printedName": "WebKit.WKUserContentController",
+                    "usr": "c:objc(cs)WKUserContentController"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKScriptMessage",
+                    "printedName": "WebKit.WKScriptMessage",
+                    "usr": "c:objc(cs)WKScriptMessage"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9FabricSDK0A7WebViewV11CoordinatorC21userContentController_10didReceiveySo06WKUsergH0C_So15WKScriptMessageCtF",
+                "mangledName": "$s9FabricSDK0A7WebViewV11CoordinatorC21userContentController_10didReceiveySo06WKUsergH0C_So15WKScriptMessageCtF",
+                "moduleName": "FabricSDK",
+                "objc_name": "userContentController:didReceiveScriptMessage:",
+                "declAttributes": [
+                  "Final",
+                  "ObjC",
+                  "Preconcurrency",
+                  "Custom",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "locationManager",
+                "printedName": "locationManager(_:didChangeAuthorization:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLLocationManager",
+                    "printedName": "CoreLocation.CLLocationManager",
+                    "usr": "c:objc(cs)CLLocationManager"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLAuthorizationStatus",
+                    "printedName": "CoreLocation.CLAuthorizationStatus",
+                    "usr": "c:@E@CLAuthorizationStatus"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9FabricSDK0A7WebViewV11CoordinatorC15locationManager_22didChangeAuthorizationySo010CLLocationG0C_So21CLAuthorizationStatusVtF",
+                "mangledName": "$s9FabricSDK0A7WebViewV11CoordinatorC15locationManager_22didChangeAuthorizationySo010CLLocationG0C_So21CLAuthorizationStatusVtF",
+                "moduleName": "FabricSDK",
+                "objc_name": "locationManager:didChangeAuthorizationStatus:",
+                "declAttributes": [
+                  "Final",
+                  "ObjC",
+                  "Preconcurrency",
+                  "Custom",
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "locationManager",
+                "printedName": "locationManager(_:didFailWithError:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLLocationManager",
+                    "printedName": "CoreLocation.CLLocationManager",
+                    "usr": "c:objc(cs)CLLocationManager"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9FabricSDK0A7WebViewV11CoordinatorC15locationManager_16didFailWithErrorySo010CLLocationG0C_s0K0_ptF",
+                "mangledName": "$s9FabricSDK0A7WebViewV11CoordinatorC15locationManager_16didFailWithErrorySo010CLLocationG0C_s0K0_ptF",
+                "moduleName": "FabricSDK",
+                "objc_name": "locationManager:didFailWithError:",
+                "declAttributes": [
+                  "Final",
+                  "ObjC",
+                  "Preconcurrency",
+                  "Custom",
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "locationManager",
+                "printedName": "locationManager(_:didUpdateLocations:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLLocationManager",
+                    "printedName": "CoreLocation.CLLocationManager",
+                    "usr": "c:objc(cs)CLLocationManager"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CoreLocation.CLLocation]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CLLocation",
+                        "printedName": "CoreLocation.CLLocation",
+                        "usr": "c:objc(cs)CLLocation"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9FabricSDK0A7WebViewV11CoordinatorC15locationManager_18didUpdateLocationsySo010CLLocationG0C_SaySo0K0CGtF",
+                "mangledName": "$s9FabricSDK0A7WebViewV11CoordinatorC15locationManager_18didUpdateLocationsySo010CLLocationG0C_SaySo0K0CGtF",
+                "moduleName": "FabricSDK",
+                "objc_name": "locationManager:didUpdateLocations:",
+                "declAttributes": [
+                  "Final",
+                  "ObjC",
+                  "Preconcurrency",
+                  "Custom",
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "webView",
+                "printedName": "webView(_:decidePolicyFor:decisionHandler:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigationAction",
+                    "printedName": "WebKit.WKNavigationAction",
+                    "usr": "c:objc(cs)WKNavigationAction"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(WebKit.WKNavigationActionPolicy) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WKNavigationActionPolicy",
+                        "printedName": "WebKit.WKNavigationActionPolicy",
+                        "usr": "c:@E@WKNavigationActionPolicy"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9FabricSDK0A7WebViewV11CoordinatorC03webD0_15decidePolicyFor15decisionHandlerySo05WKWebD0C_So18WKNavigationActionCySo0mnH0VctF",
+                "mangledName": "$s9FabricSDK0A7WebViewV11CoordinatorC03webD0_15decidePolicyFor15decisionHandlerySo05WKWebD0C_So18WKNavigationActionCySo0mnH0VctF",
+                "moduleName": "FabricSDK",
+                "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
+                "declAttributes": [
+                  "Final",
+                  "ObjC",
+                  "Preconcurrency",
+                  "Custom",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "webView",
+                "printedName": "webView(_:didFinish:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "WebKit.WKNavigation?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WKNavigation",
+                        "printedName": "WebKit.WKNavigation",
+                        "usr": "c:objc(cs)WKNavigation"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9FabricSDK0A7WebViewV11CoordinatorC03webD0_9didFinishySo05WKWebD0C_So12WKNavigationCSgtF",
+                "mangledName": "$s9FabricSDK0A7WebViewV11CoordinatorC03webD0_9didFinishySo05WKWebD0C_So12WKNavigationCSgtF",
+                "moduleName": "FabricSDK",
+                "objc_name": "webView:didFinishNavigation:",
+                "declAttributes": [
+                  "Final",
+                  "ObjC",
+                  "Preconcurrency",
+                  "Custom",
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "webView",
+                "printedName": "webView(_:requestMediaCapturePermissionFor:initiatedByFrame:type:decisionHandler:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKSecurityOrigin",
+                    "printedName": "WebKit.WKSecurityOrigin",
+                    "usr": "c:objc(cs)WKSecurityOrigin"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKFrameInfo",
+                    "printedName": "WebKit.WKFrameInfo",
+                    "usr": "c:objc(cs)WKFrameInfo"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKMediaCaptureType",
+                    "printedName": "WebKit.WKMediaCaptureType",
+                    "usr": "c:@E@WKMediaCaptureType"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(WebKit.WKPermissionDecision) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WKPermissionDecision",
+                        "printedName": "WebKit.WKPermissionDecision",
+                        "usr": "c:@E@WKPermissionDecision"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9FabricSDK0A7WebViewV11CoordinatorC03webD0_32requestMediaCapturePermissionFor16initiatedByFrame4type15decisionHandlerySo05WKWebD0C_So16WKSecurityOriginCSo11WKFrameInfoCSo07WKMediaI4TypeVySo20WKPermissionDecisionVctF",
+                "mangledName": "$s9FabricSDK0A7WebViewV11CoordinatorC03webD0_32requestMediaCapturePermissionFor16initiatedByFrame4type15decisionHandlerySo05WKWebD0C_So16WKSecurityOriginCSo11WKFrameInfoCSo07WKMediaI4TypeVySo20WKPermissionDecisionVctF",
+                "moduleName": "FabricSDK",
+                "intro_iOS": "15.0",
+                "objc_name": "webView:requestMediaCapturePermissionForOrigin:initiatedByFrame:type:decisionHandler:",
+                "declAttributes": [
+                  "Final",
+                  "ObjC",
+                  "Preconcurrency",
+                  "Custom",
+                  "AccessControl",
+                  "Available",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinator",
+                    "printedName": "FabricSDK.FabricWebView.Coordinator",
+                    "usr": "s:9FabricSDK0A7WebViewV11CoordinatorC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:9FabricSDK0A7WebViewV11CoordinatorCAEycfc",
+                "mangledName": "$s9FabricSDK0A7WebViewV11CoordinatorCAEycfc",
+                "moduleName": "FabricSDK",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "init",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Preconcurrency",
+                  "Custom",
+                  "Override"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:9FabricSDK0A7WebViewV11CoordinatorC",
+            "mangledName": "$s9FabricSDK0A7WebViewV11CoordinatorC",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "superclassUsr": "c:objc(cs)NSObject",
+            "hasMissingDesignatedInitializers": true,
+            "superclassNames": [
+              "ObjectiveC.NSObject"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObservingPublishing",
+                "printedName": "_KeyValueCodingAndObservingPublishing",
+                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9FabricSDK0A7WebViewV",
+        "mangledName": "$s9FabricSDK0A7WebViewV",
+        "moduleName": "FabricSDK",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UIViewRepresentable",
+            "printedName": "UIViewRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UIViewType",
+                "printedName": "UIViewType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Coordinator",
+                "printedName": "Coordinator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinator",
+                    "printedName": "FabricSDK.FabricWebView.Coordinator",
+                    "usr": "s:9FabricSDK0A7WebViewV11CoordinatorC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI19UIViewRepresentableP",
+            "mangledName": "$s7SwiftUI19UIViewRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FabricSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FabricSDKInfo",
+        "printedName": "FabricSDKInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9FabricSDK0A7SDKInfoV7versionSSvpZ",
+            "mangledName": "$s9FabricSDK0A7SDKInfoV7versionSSvpZ",
+            "moduleName": "FabricSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9FabricSDK0A7SDKInfoV7versionSSvgZ",
+                "mangledName": "$s9FabricSDK0A7SDKInfoV7versionSSvgZ",
+                "moduleName": "FabricSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FabricSDKInfo",
+                "printedName": "FabricSDK.FabricSDKInfo",
+                "usr": "s:9FabricSDK0A7SDKInfoV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9FabricSDK0A7SDKInfoVACycfc",
+            "mangledName": "$s9FabricSDK0A7SDKInfoVACycfc",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9FabricSDK0A7SDKInfoV",
+        "mangledName": "$s9FabricSDK0A7SDKInfoV",
+        "moduleName": "FabricSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FabricSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnyCodable",
+        "printedName": "AnyCodable",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "string",
+            "printedName": "string",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FabricSDK.AnyCodable.Type) -> (Swift.String) -> FabricSDK.AnyCodable",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> FabricSDK.AnyCodable",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyCodable",
+                        "printedName": "FabricSDK.AnyCodable",
+                        "usr": "s:9FabricSDK10AnyCodableO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FabricSDK.AnyCodable.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyCodable",
+                        "printedName": "FabricSDK.AnyCodable",
+                        "usr": "s:9FabricSDK10AnyCodableO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9FabricSDK10AnyCodableO6stringyACSScACmF",
+            "mangledName": "$s9FabricSDK10AnyCodableO6stringyACSScACmF",
+            "moduleName": "FabricSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "int",
+            "printedName": "int",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FabricSDK.AnyCodable.Type) -> (Swift.Int) -> FabricSDK.AnyCodable",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> FabricSDK.AnyCodable",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyCodable",
+                        "printedName": "FabricSDK.AnyCodable",
+                        "usr": "s:9FabricSDK10AnyCodableO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FabricSDK.AnyCodable.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyCodable",
+                        "printedName": "FabricSDK.AnyCodable",
+                        "usr": "s:9FabricSDK10AnyCodableO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9FabricSDK10AnyCodableO3intyACSicACmF",
+            "mangledName": "$s9FabricSDK10AnyCodableO3intyACSicACmF",
+            "moduleName": "FabricSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "double",
+            "printedName": "double",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FabricSDK.AnyCodable.Type) -> (Swift.Double) -> FabricSDK.AnyCodable",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Double) -> FabricSDK.AnyCodable",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyCodable",
+                        "printedName": "FabricSDK.AnyCodable",
+                        "usr": "s:9FabricSDK10AnyCodableO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FabricSDK.AnyCodable.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyCodable",
+                        "printedName": "FabricSDK.AnyCodable",
+                        "usr": "s:9FabricSDK10AnyCodableO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9FabricSDK10AnyCodableO6doubleyACSdcACmF",
+            "mangledName": "$s9FabricSDK10AnyCodableO6doubleyACSdcACmF",
+            "moduleName": "FabricSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "bool",
+            "printedName": "bool",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FabricSDK.AnyCodable.Type) -> (Swift.Bool) -> FabricSDK.AnyCodable",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> FabricSDK.AnyCodable",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyCodable",
+                        "printedName": "FabricSDK.AnyCodable",
+                        "usr": "s:9FabricSDK10AnyCodableO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FabricSDK.AnyCodable.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyCodable",
+                        "printedName": "FabricSDK.AnyCodable",
+                        "usr": "s:9FabricSDK10AnyCodableO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9FabricSDK10AnyCodableO4boolyACSbcACmF",
+            "mangledName": "$s9FabricSDK10AnyCodableO4boolyACSbcACmF",
+            "moduleName": "FabricSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "array",
+            "printedName": "array",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FabricSDK.AnyCodable.Type) -> ([FabricSDK.AnyCodable]) -> FabricSDK.AnyCodable",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([FabricSDK.AnyCodable]) -> FabricSDK.AnyCodable",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyCodable",
+                        "printedName": "FabricSDK.AnyCodable",
+                        "usr": "s:9FabricSDK10AnyCodableO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[FabricSDK.AnyCodable]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnyCodable",
+                            "printedName": "FabricSDK.AnyCodable",
+                            "usr": "s:9FabricSDK10AnyCodableO"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FabricSDK.AnyCodable.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyCodable",
+                        "printedName": "FabricSDK.AnyCodable",
+                        "usr": "s:9FabricSDK10AnyCodableO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9FabricSDK10AnyCodableO5arrayyACSayACGcACmF",
+            "mangledName": "$s9FabricSDK10AnyCodableO5arrayyACSayACGcACmF",
+            "moduleName": "FabricSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "object",
+            "printedName": "object",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FabricSDK.AnyCodable.Type) -> ([Swift.String : FabricSDK.AnyCodable]) -> FabricSDK.AnyCodable",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.String : FabricSDK.AnyCodable]) -> FabricSDK.AnyCodable",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyCodable",
+                        "printedName": "FabricSDK.AnyCodable",
+                        "usr": "s:9FabricSDK10AnyCodableO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : FabricSDK.AnyCodable]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnyCodable",
+                            "printedName": "FabricSDK.AnyCodable",
+                            "usr": "s:9FabricSDK10AnyCodableO"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FabricSDK.AnyCodable.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyCodable",
+                        "printedName": "FabricSDK.AnyCodable",
+                        "usr": "s:9FabricSDK10AnyCodableO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9FabricSDK10AnyCodableO6objectyACSDySSACGcACmF",
+            "mangledName": "$s9FabricSDK10AnyCodableO6objectyACSDySSACGcACmF",
+            "moduleName": "FabricSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "null",
+            "printedName": "null",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FabricSDK.AnyCodable.Type) -> FabricSDK.AnyCodable",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyCodable",
+                    "printedName": "FabricSDK.AnyCodable",
+                    "usr": "s:9FabricSDK10AnyCodableO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FabricSDK.AnyCodable.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyCodable",
+                        "printedName": "FabricSDK.AnyCodable",
+                        "usr": "s:9FabricSDK10AnyCodableO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9FabricSDK10AnyCodableO4nullyA2CmF",
+            "mangledName": "$s9FabricSDK10AnyCodableO4nullyA2CmF",
+            "moduleName": "FabricSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyCodable",
+                "printedName": "FabricSDK.AnyCodable",
+                "usr": "s:9FabricSDK10AnyCodableO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9FabricSDK10AnyCodableO4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s9FabricSDK10AnyCodableO4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9FabricSDK10AnyCodableO6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s9FabricSDK10AnyCodableO6encode2toys7Encoder_p_tKF",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9FabricSDK10AnyCodableO",
+        "mangledName": "$s9FabricSDK10AnyCodableO",
+        "moduleName": "FabricSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FabricDecodeError",
+        "printedName": "FabricDecodeError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidBody",
+            "printedName": "invalidBody",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FabricSDK.FabricDecodeError.Type) -> FabricSDK.FabricDecodeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FabricDecodeError",
+                    "printedName": "FabricSDK.FabricDecodeError",
+                    "usr": "s:9FabricSDK0A11DecodeErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FabricSDK.FabricDecodeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FabricDecodeError",
+                        "printedName": "FabricSDK.FabricDecodeError",
+                        "usr": "s:9FabricSDK0A11DecodeErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9FabricSDK0A11DecodeErrorO11invalidBodyyA2CmF",
+            "mangledName": "$s9FabricSDK0A11DecodeErrorO11invalidBodyyA2CmF",
+            "moduleName": "FabricSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "jsonSerializationFailed",
+            "printedName": "jsonSerializationFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FabricSDK.FabricDecodeError.Type) -> FabricSDK.FabricDecodeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FabricDecodeError",
+                    "printedName": "FabricSDK.FabricDecodeError",
+                    "usr": "s:9FabricSDK0A11DecodeErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FabricSDK.FabricDecodeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FabricDecodeError",
+                        "printedName": "FabricSDK.FabricDecodeError",
+                        "usr": "s:9FabricSDK0A11DecodeErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9FabricSDK0A11DecodeErrorO23jsonSerializationFailedyA2CmF",
+            "mangledName": "$s9FabricSDK0A11DecodeErrorO23jsonSerializationFailedyA2CmF",
+            "moduleName": "FabricSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "decodeFailed",
+            "printedName": "decodeFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FabricSDK.FabricDecodeError.Type) -> (any Swift.Error) -> FabricSDK.FabricDecodeError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.Error) -> FabricSDK.FabricDecodeError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FabricDecodeError",
+                        "printedName": "FabricSDK.FabricDecodeError",
+                        "usr": "s:9FabricSDK0A11DecodeErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FabricSDK.FabricDecodeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FabricDecodeError",
+                        "printedName": "FabricSDK.FabricDecodeError",
+                        "usr": "s:9FabricSDK0A11DecodeErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9FabricSDK0A11DecodeErrorO12decodeFailedyACs0D0_pcACmF",
+            "mangledName": "$s9FabricSDK0A11DecodeErrorO12decodeFailedyACs0D0_pcACmF",
+            "moduleName": "FabricSDK"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9FabricSDK0A11DecodeErrorO",
+        "mangledName": "$s9FabricSDK0A11DecodeErrorO",
+        "moduleName": "FabricSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "decodeMessage",
+        "printedName": "decodeMessage(_:from:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "GenericTypeParam",
+            "printedName": "τ_0_0"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Metatype",
+            "printedName": "τ_0_0.Type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ]
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "ProtocolComposition",
+            "printedName": "Any"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9FabricSDK13decodeMessage_4fromxxm_yptKSeRzlF",
+        "mangledName": "$s9FabricSDK13decodeMessage_4fromxxm_yptKSeRzlF",
+        "moduleName": "FabricSDK",
+        "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+        "sugared_genericSig": "<T where T : Swift.Decodable>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "throwing": true,
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FabricMessageType",
+        "printedName": "FabricMessageType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "geolocation",
+            "printedName": "geolocation",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FabricSDK.FabricMessageType.Type) -> FabricSDK.FabricMessageType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FabricMessageType",
+                    "printedName": "FabricSDK.FabricMessageType",
+                    "usr": "s:9FabricSDK0A11MessageTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FabricSDK.FabricMessageType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FabricMessageType",
+                        "printedName": "FabricSDK.FabricMessageType",
+                        "usr": "s:9FabricSDK0A11MessageTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9FabricSDK0A11MessageTypeO11geolocationyA2CmF",
+            "mangledName": "$s9FabricSDK0A11MessageTypeO11geolocationyA2CmF",
+            "moduleName": "FabricSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "geolocationWatch",
+            "printedName": "geolocationWatch",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FabricSDK.FabricMessageType.Type) -> FabricSDK.FabricMessageType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FabricMessageType",
+                    "printedName": "FabricSDK.FabricMessageType",
+                    "usr": "s:9FabricSDK0A11MessageTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FabricSDK.FabricMessageType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FabricMessageType",
+                        "printedName": "FabricSDK.FabricMessageType",
+                        "usr": "s:9FabricSDK0A11MessageTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9FabricSDK0A11MessageTypeO16geolocationWatchyA2CmF",
+            "mangledName": "$s9FabricSDK0A11MessageTypeO16geolocationWatchyA2CmF",
+            "moduleName": "FabricSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "geolocationClear",
+            "printedName": "geolocationClear",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FabricSDK.FabricMessageType.Type) -> FabricSDK.FabricMessageType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FabricMessageType",
+                    "printedName": "FabricSDK.FabricMessageType",
+                    "usr": "s:9FabricSDK0A11MessageTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FabricSDK.FabricMessageType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FabricMessageType",
+                        "printedName": "FabricSDK.FabricMessageType",
+                        "usr": "s:9FabricSDK0A11MessageTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9FabricSDK0A11MessageTypeO16geolocationClearyA2CmF",
+            "mangledName": "$s9FabricSDK0A11MessageTypeO16geolocationClearyA2CmF",
+            "moduleName": "FabricSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "permissionQuery",
+            "printedName": "permissionQuery",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FabricSDK.FabricMessageType.Type) -> FabricSDK.FabricMessageType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FabricMessageType",
+                    "printedName": "FabricSDK.FabricMessageType",
+                    "usr": "s:9FabricSDK0A11MessageTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FabricSDK.FabricMessageType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FabricMessageType",
+                        "printedName": "FabricSDK.FabricMessageType",
+                        "usr": "s:9FabricSDK0A11MessageTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9FabricSDK0A11MessageTypeO15permissionQueryyA2CmF",
+            "mangledName": "$s9FabricSDK0A11MessageTypeO15permissionQueryyA2CmF",
+            "moduleName": "FabricSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "deviceOrientationRequest",
+            "printedName": "deviceOrientationRequest",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FabricSDK.FabricMessageType.Type) -> FabricSDK.FabricMessageType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FabricMessageType",
+                    "printedName": "FabricSDK.FabricMessageType",
+                    "usr": "s:9FabricSDK0A11MessageTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FabricSDK.FabricMessageType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FabricMessageType",
+                        "printedName": "FabricSDK.FabricMessageType",
+                        "usr": "s:9FabricSDK0A11MessageTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9FabricSDK0A11MessageTypeO24deviceOrientationRequestyA2CmF",
+            "mangledName": "$s9FabricSDK0A11MessageTypeO24deviceOrientationRequestyA2CmF",
+            "moduleName": "FabricSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FabricSDK.FabricMessageType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FabricMessageType",
+                    "printedName": "FabricSDK.FabricMessageType",
+                    "usr": "s:9FabricSDK0A11MessageTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9FabricSDK0A11MessageTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s9FabricSDK0A11MessageTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "FabricSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9FabricSDK0A11MessageTypeO8rawValueSSvp",
+            "mangledName": "$s9FabricSDK0A11MessageTypeO8rawValueSSvp",
+            "moduleName": "FabricSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9FabricSDK0A11MessageTypeO8rawValueSSvg",
+                "mangledName": "$s9FabricSDK0A11MessageTypeO8rawValueSSvg",
+                "moduleName": "FabricSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9FabricSDK0A11MessageTypeO",
+        "mangledName": "$s9FabricSDK0A11MessageTypeO",
+        "moduleName": "FabricSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FabricPermEnvelope",
+        "printedName": "FabricPermEnvelope",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FabricMessageType",
+                "printedName": "FabricSDK.FabricMessageType",
+                "usr": "s:9FabricSDK0A11MessageTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9FabricSDK0A12PermEnvelopeV4typeAA0A11MessageTypeOvp",
+            "mangledName": "$s9FabricSDK0A12PermEnvelopeV4typeAA0A11MessageTypeOvp",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FabricMessageType",
+                    "printedName": "FabricSDK.FabricMessageType",
+                    "usr": "s:9FabricSDK0A11MessageTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9FabricSDK0A12PermEnvelopeV4typeAA0A11MessageTypeOvg",
+                "mangledName": "$s9FabricSDK0A12PermEnvelopeV4typeAA0A11MessageTypeOvg",
+                "moduleName": "FabricSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9FabricSDK0A12PermEnvelopeV2idSSSgvp",
+            "mangledName": "$s9FabricSDK0A12PermEnvelopeV2idSSSgvp",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9FabricSDK0A12PermEnvelopeV2idSSSgvg",
+                "mangledName": "$s9FabricSDK0A12PermEnvelopeV2idSSSgvg",
+                "moduleName": "FabricSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9FabricSDK0A12PermEnvelopeV4nameSSSgvp",
+            "mangledName": "$s9FabricSDK0A12PermEnvelopeV4nameSSSgvp",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9FabricSDK0A12PermEnvelopeV4nameSSSgvg",
+                "mangledName": "$s9FabricSDK0A12PermEnvelopeV4nameSSSgvg",
+                "moduleName": "FabricSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "options",
+            "printedName": "options",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FabricSDK.AnyCodable?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyCodable",
+                    "printedName": "FabricSDK.AnyCodable",
+                    "usr": "s:9FabricSDK10AnyCodableO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9FabricSDK0A12PermEnvelopeV7optionsAA10AnyCodableOSgvp",
+            "mangledName": "$s9FabricSDK0A12PermEnvelopeV7optionsAA10AnyCodableOSgvp",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FabricSDK.AnyCodable?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyCodable",
+                        "printedName": "FabricSDK.AnyCodable",
+                        "usr": "s:9FabricSDK10AnyCodableO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9FabricSDK0A12PermEnvelopeV7optionsAA10AnyCodableOSgvg",
+                "mangledName": "$s9FabricSDK0A12PermEnvelopeV7optionsAA10AnyCodableOSgvg",
+                "moduleName": "FabricSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(type:id:name:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FabricPermEnvelope",
+                "printedName": "FabricSDK.FabricPermEnvelope",
+                "usr": "s:9FabricSDK0A12PermEnvelopeV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FabricMessageType",
+                "printedName": "FabricSDK.FabricMessageType",
+                "usr": "s:9FabricSDK0A11MessageTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FabricSDK.AnyCodable?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyCodable",
+                    "printedName": "FabricSDK.AnyCodable",
+                    "usr": "s:9FabricSDK10AnyCodableO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9FabricSDK0A12PermEnvelopeV4type2id4name7optionsAcA0A11MessageTypeO_SSSgAjA10AnyCodableOSgtcfc",
+            "mangledName": "$s9FabricSDK0A12PermEnvelopeV4type2id4name7optionsAcA0A11MessageTypeO_SSSgAjA10AnyCodableOSgtcfc",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FabricPermEnvelope",
+                "printedName": "FabricSDK.FabricPermEnvelope",
+                "usr": "s:9FabricSDK0A12PermEnvelopeV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9FabricSDK0A12PermEnvelopeV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s9FabricSDK0A12PermEnvelopeV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9FabricSDK0A12PermEnvelopeV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s9FabricSDK0A12PermEnvelopeV6encode2toys7Encoder_p_tKF",
+            "moduleName": "FabricSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9FabricSDK0A12PermEnvelopeV",
+        "mangledName": "$s9FabricSDK0A12PermEnvelopeV",
+        "moduleName": "FabricSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConsolePayload",
+        "printedName": "ConsolePayload",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "level",
+            "printedName": "level",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9FabricSDK14ConsolePayloadV5levelSSSgvp",
+            "mangledName": "$s9FabricSDK14ConsolePayloadV5levelSSSgvp",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9FabricSDK14ConsolePayloadV5levelSSSgvg",
+                "mangledName": "$s9FabricSDK14ConsolePayloadV5levelSSSgvg",
+                "moduleName": "FabricSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9FabricSDK14ConsolePayloadV7messageSSvp",
+            "mangledName": "$s9FabricSDK14ConsolePayloadV7messageSSvp",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9FabricSDK14ConsolePayloadV7messageSSvg",
+                "mangledName": "$s9FabricSDK14ConsolePayloadV7messageSSvg",
+                "moduleName": "FabricSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "source",
+            "printedName": "source",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9FabricSDK14ConsolePayloadV6sourceSSSgvp",
+            "mangledName": "$s9FabricSDK14ConsolePayloadV6sourceSSSgvp",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9FabricSDK14ConsolePayloadV6sourceSSSgvg",
+                "mangledName": "$s9FabricSDK14ConsolePayloadV6sourceSSSgvg",
+                "moduleName": "FabricSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "line",
+            "printedName": "line",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9FabricSDK14ConsolePayloadV4lineSiSgvp",
+            "mangledName": "$s9FabricSDK14ConsolePayloadV4lineSiSgvp",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9FabricSDK14ConsolePayloadV4lineSiSgvg",
+                "mangledName": "$s9FabricSDK14ConsolePayloadV4lineSiSgvg",
+                "moduleName": "FabricSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "column",
+            "printedName": "column",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9FabricSDK14ConsolePayloadV6columnSiSgvp",
+            "mangledName": "$s9FabricSDK14ConsolePayloadV6columnSiSgvp",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9FabricSDK14ConsolePayloadV6columnSiSgvg",
+                "mangledName": "$s9FabricSDK14ConsolePayloadV6columnSiSgvg",
+                "moduleName": "FabricSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "stack",
+            "printedName": "stack",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9FabricSDK14ConsolePayloadV5stackSSSgvp",
+            "mangledName": "$s9FabricSDK14ConsolePayloadV5stackSSSgvp",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9FabricSDK14ConsolePayloadV5stackSSSgvg",
+                "mangledName": "$s9FabricSDK14ConsolePayloadV5stackSSSgvg",
+                "moduleName": "FabricSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(level:message:source:line:column:stack:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConsolePayload",
+                "printedName": "FabricSDK.ConsolePayload",
+                "usr": "s:9FabricSDK14ConsolePayloadV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9FabricSDK14ConsolePayloadV5level7message6source4line6column5stackACSSSg_SSAJSiSgAkJtcfc",
+            "mangledName": "$s9FabricSDK14ConsolePayloadV5level7message6source4line6column5stackACSSSg_SSAJSiSgAkJtcfc",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConsolePayload",
+                "printedName": "FabricSDK.ConsolePayload",
+                "usr": "s:9FabricSDK14ConsolePayloadV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9FabricSDK14ConsolePayloadV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s9FabricSDK14ConsolePayloadV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FabricSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9FabricSDK14ConsolePayloadV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s9FabricSDK14ConsolePayloadV6encode2toys7Encoder_p_tKF",
+            "moduleName": "FabricSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9FabricSDK14ConsolePayloadV",
+        "mangledName": "$s9FabricSDK14ConsolePayloadV",
+        "moduleName": "FabricSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConsoleEnvelope",
+        "printedName": "ConsoleEnvelope",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "kind",
+            "printedName": "kind",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9FabricSDK15ConsoleEnvelopeV4kindSSvp",
+            "mangledName": "$s9FabricSDK15ConsoleEnvelopeV4kindSSvp",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9FabricSDK15ConsoleEnvelopeV4kindSSvg",
+                "mangledName": "$s9FabricSDK15ConsoleEnvelopeV4kindSSvg",
+                "moduleName": "FabricSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "payload",
+            "printedName": "payload",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConsolePayload",
+                "printedName": "FabricSDK.ConsolePayload",
+                "usr": "s:9FabricSDK14ConsolePayloadV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9FabricSDK15ConsoleEnvelopeV7payloadAA0C7PayloadVvp",
+            "mangledName": "$s9FabricSDK15ConsoleEnvelopeV7payloadAA0C7PayloadVvp",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsolePayload",
+                    "printedName": "FabricSDK.ConsolePayload",
+                    "usr": "s:9FabricSDK14ConsolePayloadV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9FabricSDK15ConsoleEnvelopeV7payloadAA0C7PayloadVvg",
+                "mangledName": "$s9FabricSDK15ConsoleEnvelopeV7payloadAA0C7PayloadVvg",
+                "moduleName": "FabricSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(kind:payload:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConsoleEnvelope",
+                "printedName": "FabricSDK.ConsoleEnvelope",
+                "usr": "s:9FabricSDK15ConsoleEnvelopeV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConsolePayload",
+                "printedName": "FabricSDK.ConsolePayload",
+                "usr": "s:9FabricSDK14ConsolePayloadV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9FabricSDK15ConsoleEnvelopeV4kind7payloadACSS_AA0C7PayloadVtcfc",
+            "mangledName": "$s9FabricSDK15ConsoleEnvelopeV4kind7payloadACSS_AA0C7PayloadVtcfc",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConsoleEnvelope",
+                "printedName": "FabricSDK.ConsoleEnvelope",
+                "usr": "s:9FabricSDK15ConsoleEnvelopeV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9FabricSDK15ConsoleEnvelopeV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s9FabricSDK15ConsoleEnvelopeV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FabricSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9FabricSDK15ConsoleEnvelopeV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s9FabricSDK15ConsoleEnvelopeV6encode2toys7Encoder_p_tKF",
+            "moduleName": "FabricSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9FabricSDK15ConsoleEnvelopeV",
+        "mangledName": "$s9FabricSDK15ConsoleEnvelopeV",
+        "moduleName": "FabricSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FabricPermMessage",
+        "printedName": "FabricPermMessage",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "IdOnly",
+            "printedName": "IdOnly",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "id",
+                "printedName": "id",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9FabricSDK0A11PermMessageO6IdOnlyV2idSSSgvp",
+                "mangledName": "$s9FabricSDK0A11PermMessageO6IdOnlyV2idSSSgvp",
+                "moduleName": "FabricSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9FabricSDK0A11PermMessageO6IdOnlyV2idSSSgvg",
+                    "mangledName": "$s9FabricSDK0A11PermMessageO6IdOnlyV2idSSSgvg",
+                    "moduleName": "FabricSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IdOnly",
+                    "printedName": "FabricSDK.FabricPermMessage.IdOnly",
+                    "usr": "s:9FabricSDK0A11PermMessageO6IdOnlyV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "any Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:9FabricSDK0A11PermMessageO6IdOnlyV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s9FabricSDK0A11PermMessageO6IdOnlyV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "FabricSDK",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:9FabricSDK0A11PermMessageO6IdOnlyV",
+            "mangledName": "$s9FabricSDK0A11PermMessageO6IdOnlyV",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "PermissionQueryPayload",
+            "printedName": "PermissionQueryPayload",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "id",
+                "printedName": "id",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9FabricSDK0A11PermMessageO22PermissionQueryPayloadV2idSSSgvp",
+                "mangledName": "$s9FabricSDK0A11PermMessageO22PermissionQueryPayloadV2idSSSgvp",
+                "moduleName": "FabricSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9FabricSDK0A11PermMessageO22PermissionQueryPayloadV2idSSSgvg",
+                    "mangledName": "$s9FabricSDK0A11PermMessageO22PermissionQueryPayloadV2idSSSgvg",
+                    "moduleName": "FabricSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "name",
+                "printedName": "name",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9FabricSDK0A11PermMessageO22PermissionQueryPayloadV4nameSSSgvp",
+                "mangledName": "$s9FabricSDK0A11PermMessageO22PermissionQueryPayloadV4nameSSSgvp",
+                "moduleName": "FabricSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9FabricSDK0A11PermMessageO22PermissionQueryPayloadV4nameSSSgvg",
+                    "mangledName": "$s9FabricSDK0A11PermMessageO22PermissionQueryPayloadV4nameSSSgvg",
+                    "moduleName": "FabricSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "options",
+                "printedName": "options",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FabricSDK.AnyCodable?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyCodable",
+                        "printedName": "FabricSDK.AnyCodable",
+                        "usr": "s:9FabricSDK10AnyCodableO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9FabricSDK0A11PermMessageO22PermissionQueryPayloadV7optionsAA10AnyCodableOSgvp",
+                "mangledName": "$s9FabricSDK0A11PermMessageO22PermissionQueryPayloadV7optionsAA10AnyCodableOSgvp",
+                "moduleName": "FabricSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "FabricSDK.AnyCodable?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnyCodable",
+                            "printedName": "FabricSDK.AnyCodable",
+                            "usr": "s:9FabricSDK10AnyCodableO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9FabricSDK0A11PermMessageO22PermissionQueryPayloadV7optionsAA10AnyCodableOSgvg",
+                    "mangledName": "$s9FabricSDK0A11PermMessageO22PermissionQueryPayloadV7optionsAA10AnyCodableOSgvg",
+                    "moduleName": "FabricSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PermissionQueryPayload",
+                    "printedName": "FabricSDK.FabricPermMessage.PermissionQueryPayload",
+                    "usr": "s:9FabricSDK0A11PermMessageO22PermissionQueryPayloadV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "any Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:9FabricSDK0A11PermMessageO22PermissionQueryPayloadV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s9FabricSDK0A11PermMessageO22PermissionQueryPayloadV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "FabricSDK",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:9FabricSDK0A11PermMessageO22PermissionQueryPayloadV",
+            "mangledName": "$s9FabricSDK0A11PermMessageO22PermissionQueryPayloadV",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "geolocation",
+            "printedName": "geolocation",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FabricSDK.FabricPermMessage.Type) -> (FabricSDK.FabricPermMessage.IdOnly) -> FabricSDK.FabricPermMessage",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FabricSDK.FabricPermMessage.IdOnly) -> FabricSDK.FabricPermMessage",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FabricPermMessage",
+                        "printedName": "FabricSDK.FabricPermMessage",
+                        "usr": "s:9FabricSDK0A11PermMessageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IdOnly",
+                        "printedName": "FabricSDK.FabricPermMessage.IdOnly",
+                        "usr": "s:9FabricSDK0A11PermMessageO6IdOnlyV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FabricSDK.FabricPermMessage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FabricPermMessage",
+                        "printedName": "FabricSDK.FabricPermMessage",
+                        "usr": "s:9FabricSDK0A11PermMessageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9FabricSDK0A11PermMessageO11geolocationyA2C6IdOnlyVcACmF",
+            "mangledName": "$s9FabricSDK0A11PermMessageO11geolocationyA2C6IdOnlyVcACmF",
+            "moduleName": "FabricSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "geolocationWatch",
+            "printedName": "geolocationWatch",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FabricSDK.FabricPermMessage.Type) -> (FabricSDK.FabricPermMessage.IdOnly) -> FabricSDK.FabricPermMessage",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FabricSDK.FabricPermMessage.IdOnly) -> FabricSDK.FabricPermMessage",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FabricPermMessage",
+                        "printedName": "FabricSDK.FabricPermMessage",
+                        "usr": "s:9FabricSDK0A11PermMessageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IdOnly",
+                        "printedName": "FabricSDK.FabricPermMessage.IdOnly",
+                        "usr": "s:9FabricSDK0A11PermMessageO6IdOnlyV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FabricSDK.FabricPermMessage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FabricPermMessage",
+                        "printedName": "FabricSDK.FabricPermMessage",
+                        "usr": "s:9FabricSDK0A11PermMessageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9FabricSDK0A11PermMessageO16geolocationWatchyA2C6IdOnlyVcACmF",
+            "mangledName": "$s9FabricSDK0A11PermMessageO16geolocationWatchyA2C6IdOnlyVcACmF",
+            "moduleName": "FabricSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "geolocationClear",
+            "printedName": "geolocationClear",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FabricSDK.FabricPermMessage.Type) -> (FabricSDK.FabricPermMessage.IdOnly) -> FabricSDK.FabricPermMessage",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FabricSDK.FabricPermMessage.IdOnly) -> FabricSDK.FabricPermMessage",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FabricPermMessage",
+                        "printedName": "FabricSDK.FabricPermMessage",
+                        "usr": "s:9FabricSDK0A11PermMessageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IdOnly",
+                        "printedName": "FabricSDK.FabricPermMessage.IdOnly",
+                        "usr": "s:9FabricSDK0A11PermMessageO6IdOnlyV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FabricSDK.FabricPermMessage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FabricPermMessage",
+                        "printedName": "FabricSDK.FabricPermMessage",
+                        "usr": "s:9FabricSDK0A11PermMessageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9FabricSDK0A11PermMessageO16geolocationClearyA2C6IdOnlyVcACmF",
+            "mangledName": "$s9FabricSDK0A11PermMessageO16geolocationClearyA2C6IdOnlyVcACmF",
+            "moduleName": "FabricSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "permissionQuery",
+            "printedName": "permissionQuery",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FabricSDK.FabricPermMessage.Type) -> (FabricSDK.FabricPermMessage.PermissionQueryPayload) -> FabricSDK.FabricPermMessage",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FabricSDK.FabricPermMessage.PermissionQueryPayload) -> FabricSDK.FabricPermMessage",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FabricPermMessage",
+                        "printedName": "FabricSDK.FabricPermMessage",
+                        "usr": "s:9FabricSDK0A11PermMessageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PermissionQueryPayload",
+                        "printedName": "FabricSDK.FabricPermMessage.PermissionQueryPayload",
+                        "usr": "s:9FabricSDK0A11PermMessageO22PermissionQueryPayloadV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FabricSDK.FabricPermMessage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FabricPermMessage",
+                        "printedName": "FabricSDK.FabricPermMessage",
+                        "usr": "s:9FabricSDK0A11PermMessageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9FabricSDK0A11PermMessageO15permissionQueryyA2C010PermissionF7PayloadVcACmF",
+            "mangledName": "$s9FabricSDK0A11PermMessageO15permissionQueryyA2C010PermissionF7PayloadVcACmF",
+            "moduleName": "FabricSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "deviceOrientationRequest",
+            "printedName": "deviceOrientationRequest",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FabricSDK.FabricPermMessage.Type) -> (FabricSDK.FabricPermMessage.IdOnly) -> FabricSDK.FabricPermMessage",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FabricSDK.FabricPermMessage.IdOnly) -> FabricSDK.FabricPermMessage",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FabricPermMessage",
+                        "printedName": "FabricSDK.FabricPermMessage",
+                        "usr": "s:9FabricSDK0A11PermMessageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IdOnly",
+                        "printedName": "FabricSDK.FabricPermMessage.IdOnly",
+                        "usr": "s:9FabricSDK0A11PermMessageO6IdOnlyV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FabricSDK.FabricPermMessage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FabricPermMessage",
+                        "printedName": "FabricSDK.FabricPermMessage",
+                        "usr": "s:9FabricSDK0A11PermMessageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9FabricSDK0A11PermMessageO24deviceOrientationRequestyA2C6IdOnlyVcACmF",
+            "mangledName": "$s9FabricSDK0A11PermMessageO24deviceOrientationRequestyA2C6IdOnlyVcACmF",
+            "moduleName": "FabricSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FabricSDK.FabricPermMessage.Type) -> FabricSDK.FabricPermMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FabricPermMessage",
+                    "printedName": "FabricSDK.FabricPermMessage",
+                    "usr": "s:9FabricSDK0A11PermMessageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FabricSDK.FabricPermMessage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FabricPermMessage",
+                        "printedName": "FabricSDK.FabricPermMessage",
+                        "usr": "s:9FabricSDK0A11PermMessageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9FabricSDK0A11PermMessageO7unknownyA2CmF",
+            "mangledName": "$s9FabricSDK0A11PermMessageO7unknownyA2CmF",
+            "moduleName": "FabricSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FabricPermMessage",
+                "printedName": "FabricSDK.FabricPermMessage",
+                "usr": "s:9FabricSDK0A11PermMessageO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9FabricSDK0A11PermMessageO4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s9FabricSDK0A11PermMessageO4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FabricSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9FabricSDK0A11PermMessageO",
+        "mangledName": "$s9FabricSDK0A11PermMessageO",
+        "moduleName": "FabricSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/work\/fabric-sdks\/fabric-sdks\/ios\/FabricSDK\/Sources\/FabricSDK\/FabricWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 820,
+      "length": 22,
+      "value": "\"AppleWebKit\/605.1.15\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/fabric-sdks\/fabric-sdks\/ios\/FabricSDK\/Sources\/FabricSDK\/FabricWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 875,
+      "length": 15,
+      "value": "\"Mobile\/15E148\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/fabric-sdks\/fabric-sdks\/ios\/FabricSDK\/Sources\/FabricSDK\/FabricWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 1603,
+      "length": 17,
+      "value": "\"Safari\/605.1.15\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/fabric-sdks\/fabric-sdks\/ios\/FabricSDK\/Sources\/FabricSDK\/FabricWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 2171,
+      "length": 17,
+      "value": "\"Safari\/605.1.15\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/fabric-sdks\/fabric-sdks\/ios\/FabricSDK\/Sources\/FabricSDK\/FabricWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 2792,
+      "length": 17,
+      "value": "\"Safari\/605.1.15\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/fabric-sdks\/fabric-sdks\/ios\/FabricSDK\/Sources\/FabricSDK\/FabricWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 4206,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/fabric-sdks\/fabric-sdks\/ios\/FabricSDK\/Sources\/FabricSDK\/FabricWebView.swift",
+      "kind": "Array",
+      "offset": 4296,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/fabric-sdks\/fabric-sdks\/ios\/FabricSDK\/Sources\/FabricSDK\/FabricWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 5224,
+      "length": 18,
+      "value": "\"space.fabric.sdk\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/fabric-sdks\/fabric-sdks\/ios\/FabricSDK\/Sources\/FabricSDK\/FabricWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 5254,
+      "length": 15,
+      "value": "\"FabricWebView\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/fabric-sdks\/fabric-sdks\/ios\/FabricSDK\/Sources\/FabricSDK\/FabricWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 7632,
+      "length": 18,
+      "value": "\"space.fabric.sdk\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/fabric-sdks\/fabric-sdks\/ios\/FabricSDK\/Sources\/FabricSDK\/FabricWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 7662,
+      "length": 15,
+      "value": "\"FabricWebView\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/fabric-sdks\/fabric-sdks\/ios\/FabricSDK\/Sources\/FabricSDK\/FabricWebView.swift",
+      "kind": "Array",
+      "offset": 7825,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/fabric-sdks\/fabric-sdks\/ios\/FabricSDK\/Sources\/FabricSDK\/FabricWebView.swift",
+      "kind": "Array",
+      "offset": 7899,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/fabric-sdks\/fabric-sdks\/ios\/FabricSDK\/Sources\/FabricSDK\/FabricWebView.swift",
+      "kind": "Array",
+      "offset": 8101,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/fabric-sdks\/fabric-sdks\/ios\/FabricSDK\/Sources\/FabricSDK\/FabricWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8191,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/fabric-sdks\/fabric-sdks\/ios\/FabricSDK\/Sources\/FabricSDK\/FabricWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 21838,
+      "length": 8,
+      "value": "\"denied\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/fabric-sdks\/fabric-sdks\/ios\/FabricSDK\/Sources\/FabricSDK\/Version.swift",
+      "kind": "StringLiteral",
+      "offset": 218,
+      "length": 7,
+      "value": "\"0.4.3\""
+    }
+  ]
+}
